@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://trigueirotech.com.br/fonts/Montserrat/MontserratRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MontserratL';
+    src: url(https://trigueirotech.com.br/fonts/Montserrat/MontserratLight.otf) format('OpenType'); /* Tem que mudar diretório */
+}
+
+@font-face {
+    font-family: 'MontserratX';
+    src: url(https://trigueirotech.com.br/fonts/Montserrat/montserrat-extralight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'MontserratT';
+    src: url(https://trigueirotech.com.br/fonts/Montserrat/MontserratHairline.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url(https://trigueirotech.com.br/fonts/Montserrat/MontserratExtraBold.otf) format('OpenType');
+}

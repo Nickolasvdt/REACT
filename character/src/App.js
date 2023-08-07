@@ -1,9 +1,8 @@
 import './App.css';
 import {useState, useEffect} from 'react'
+import Spawn from './Pages/Spawn/Spawn';
 
 function App() {
-
-
 
   return(
 
@@ -11,7 +10,7 @@ function App() {
     
       <div className='App'>
 
-        
+        <Spawn/>
 
       </div>
 
@@ -21,3 +20,5 @@ function App() {
 
 
 }
+
+export default App;

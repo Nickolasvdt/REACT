@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 69.8vw;
+    height: 3.86vw;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+h1 {
+    width: 100%;
+    font-family: MontserratExtraBold;
+    font-size: 2.34vw;
+    letter-spacing: 0.05vw;
+}
+
+h2 {
+    font-family: MontserratX;
+    font-size: 1.04vw;
+    font-weight: 100;
+}
+
+div {
+    width: 50%;
+}
+
+.local {
+    text-align: right;
+}
+
+.local h1 {
+    margin-top: 0.25vw;
+    font-size: 1.5625vw;
+}
+
+.local h1 span {
+    font-family: MontserratX;
+    font-weight: 600;
+}
+
+.local h2 {
+    font-size: 0.78vw;
+}

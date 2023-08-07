@@ -1,0 +1,29 @@
+.lastLocationButton {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.95vw;
+    height: 3.65vw;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 0.2vw;
+    background: linear-gradient(90deg, rgba(221, 221, 221, 0.10) 0%, rgba(221, 221, 221, 0.00) 100%), rgba(222, 222, 222, 0.10);
+}
+
+.lastLocationButton:hover {
+    background: linear-gradient(90deg, rgba(221, 221, 221, 0.15) 0%, rgba(221, 221, 221, 0.10) 100%), rgba(222, 222, 222, 0.15);
+}
+
+.lastLocationButton img {
+    margin-right: 0.6vw;
+}
+
+.lastLocationButton p {
+    font-family: MontserratX;
+    font-size: 0.83vw;
+    font-weight: 100; 
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.90);
+}
