@@ -1,15 +1,17 @@
 import './styles.css'
 
-function SpawnMain() {
+import AdvancedCarousel from './Carousel'
+
+export default function SpawnMain() {
     return(
         <>
         
         <main className='spawn'>
+
+            <AdvancedCarousel/>
 
         </main>
 
         </>
     )
 }
-
-export default SpawnMain

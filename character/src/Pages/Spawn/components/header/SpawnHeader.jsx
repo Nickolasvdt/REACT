@@ -3,7 +3,7 @@ import './styles.css'
 function SpawnHeader({description,zone}) {
     return (
         <>
-            <header>
+            <header className='spawnHeader'>
                 <div className='title'>
                     <h1>Selecionar Spawn</h1>
                     <h2>Selecione o lugar que deseja nascer</h2>

@@ -1,6 +1,6 @@
 import './styles.css'
 
-import LastLocationIcon from '../../../../public/lastLocation.svg'
+import LastLocationIcon from '../../../../assets//spawn/lastLocation.svg'
 
 
 function LastLocation() {
@@ -9,7 +9,7 @@ function LastLocation() {
         
             <button className='lastLocationButton'>
 
-                <img src={LastLocationIcon} alt="" />
+               { <img src={LastLocationIcon} alt="" />}
                 <p>Última localização</p>
                 
             </button>

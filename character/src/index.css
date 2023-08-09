@@ -1,5 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
     transition: 0.1s;
+}
+
+.pageContainer {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(145.68% 126.38% at -6.43% -25.69%, rgba(123, 176, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 66.70%), radial-gradient(347.20% 134.45% at 121.51% 89.26%, rgba(169, 214, 255, 0.20) 0%, rgba(0, 0, 0, 0.00) 47.70%), radial-gradient(78.75% 78.75% at 50.00% 43.01%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 30.57%, #000 75.50%);
 }

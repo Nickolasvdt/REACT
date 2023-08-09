@@ -5,6 +5,7 @@
 }
 
 .App {
+  font-family: Montserrat;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -25,6 +26,11 @@
 
 
 
+
+@font-face {
+    font-family: 'MontserratB';
+    src: url(https://trigueirotech.com.br/fonts/Montserrat/MontserratBold.ttf) format('truetype');
+}
 
 @font-face {
     font-family: 'Montserrat';
