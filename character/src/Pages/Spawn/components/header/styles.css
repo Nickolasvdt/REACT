@@ -1,4 +1,4 @@
-header {
+.spawnHeader {
     display: flex;
     align-items: center;
     width: 69.8vw;
@@ -8,20 +8,20 @@ header {
     color: rgba(255, 255, 255, 0.90);
 }
 
-h1 {
+.spawnHeader h1 {
     width: 100%;
     font-family: MontserratExtraBold;
     font-size: 2.34vw;
     letter-spacing: 0.05vw;
 }
 
-h2 {
+.spawnHeader h2 {
     font-family: MontserratX;
     font-size: 1.04vw;
     font-weight: 100;
 }
 
-div {
+.spawnHeader div {
     width: 50%;
 }
 

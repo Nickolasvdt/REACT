@@ -1,5 +1,6 @@
 import './App.css';
 import {useState, useEffect} from 'react'
+import RouterApp from './routes';
 import Spawn from './Pages/Spawn/Spawn';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     
       <div className='App'>
 
-        <Spawn/>
+        <RouterApp/>
 
       </div>
 
