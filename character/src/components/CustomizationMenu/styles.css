@@ -1,0 +1,27 @@
+.customizationMenu {
+    position: absolute;
+    top: 13.95vw;
+    left: 2.7vw;
+    width: 22.65vw;
+    height: 28.3vw;
+   /*  background-color: rgba(0, 0, 255, 0.384); */
+}
+
+.menuSelector {
+    position: absolute;
+}
+
+.customizationMenu section {
+    display: flex;
+    width: 22.65vw;
+    height: 25.34vw;
+    margin-top: 0.72vw;
+   /*  background-color: rgba(255, 0, 0, 0.301); */
+}
+
+.homePageMenu {
+    width: 19.27vw;
+    height: 25.36vw;
+    margin-left: 0.72vw;
+    background-color: red;
+}
