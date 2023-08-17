@@ -13,7 +13,7 @@
     font-weight: 900;
     line-height: 1.82vw;
     letter-spacing: 0.75px;
-    background-color: blue;
+   /*  background-color: blue; */
 }
 
 .inputContainer.text input {
@@ -37,12 +37,10 @@
 
 .inputAugmented {
     position: absolute;
-    top: 1.5vw;
-    right: 0;
     width: 19.27vw;
-    height: 3.125vw;
+    height: 3.05vw;
     top: 1.75vw;
-    right: -0.05vw;
+    right: -0.1vw;
     padding: 0.1vw;
     --aug-all-width: 0.35vw !important;
     --reticle-size: calc(var(--aug-all-width) * 3) !important;
@@ -56,5 +54,5 @@
 }
 
 .inputContainer.text:nth-child(1) input[disabled] {
-    background-color: green;
+   /*  background-color: green; */
 }

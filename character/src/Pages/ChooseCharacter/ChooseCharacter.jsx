@@ -5,6 +5,7 @@ import PerspectiveSelector from '../../components/PerspectiveSelector/Perspectiv
 import RotateCam from '../../components/RotateCam/RotateCam'
 import CustomizationMenu from '../../components/CustomizationMenu/CustomizationMenu'
 import { CharacterList } from '../../Contexts/Characters'
+import PlayerInfos from '../../components/PlayerInfos/PlayerInfos'
 
 export default function ChooseCharacter() {
 
@@ -15,6 +16,8 @@ export default function ChooseCharacter() {
                     <PerspectiveSelector/>
 
                     <CustomizationMenu type={'home'}/>
+
+                    <PlayerInfos />
 
                     <RotateCam/>
 
