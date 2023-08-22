@@ -9,7 +9,7 @@ export default function TextInput({disabled, title, augmented, value}) {
             <label className="inputContainer text">
 
                 {title}
-                <input type="text" value={value} disabled={disabled}/>
+                <input type="text" readOnly value={value} disabled={disabled}/>
                 {augmented && <div className="augmentedBorder inputAugmented" data-augmented-ui="tl-round br-round border"></div>}
 
             </label>

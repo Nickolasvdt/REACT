@@ -1,0 +1,19 @@
+.creatorPlayerInfos {
+    position: absolute;
+    top: 20vw;
+    right: 2.7vw;
+    width: 19.27vw;
+    height: 25.36vw;
+    margin-right: 0.72vw;
+}
+
+.creatorPlayerInfos .inputContainer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+}
+
+.creatorPlayerInfos .inputContainer input {
+    text-align: right;
+    padding-right: 2.7vw !important;
+}

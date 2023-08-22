@@ -1,0 +1,32 @@
+.buttons button p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 0.625vw;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.05vw;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.buttons button:nth-child(2) {
+    margin-left: 1.37vw;
+}
+
+button.confirmButton {
+    border-color: rgba(165, 198, 235, 0.80);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.00) 100%), rgba(105, 161, 225, 0.70);
+}
+
+button.confirmButton:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.00) 100%), rgba(105, 161, 225, 0.80);
+}
+
+button.cancelButton {
+    border-color: rgba(200, 77, 77, 0.80);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.60) 100%), rgba(116, 21, 21, 0.70);
+}
+
+button.cancelButton:hover {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.4) 100%), rgba(116, 21, 21, 0.80);
+}

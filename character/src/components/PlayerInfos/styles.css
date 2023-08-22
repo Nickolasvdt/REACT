@@ -5,5 +5,14 @@
     width: 19.27vw;
     height: 25.36vw;
     margin-right: 0.72vw;
- /*    background-color: red; */
+}
+
+.playerInfos .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.playerInfos .inputContainer input {
+    text-align: right;
 }

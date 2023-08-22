@@ -5,13 +5,15 @@ import CreateNewCharacter from '../../assets/chooseCharacter/createNewCharacter.
 
 export default function ItemSelector({type}) {
 
-    const [[character, setCharacter], [selectedCharacter, setSelectedCharacter], [maxCharacters]] = useContext(CharacterList)
+    const [[character, setCharacter], [selectedCharacter, setSelectedCharacter], [maxCharacters], [modalIsOpen, setModalIsOpen]] = useContext(CharacterList)
 
     const changeCharacter = (e) => {
         setSelectedCharacter(e)
     }
 
-
+    const handleModal = () => {
+        setModalIsOpen(true)
+    }
 
     return(
         <>
@@ -24,7 +26,8 @@ export default function ItemSelector({type}) {
                     </div>
                 ))}
                 {
-                    <div onClick={(e) => changeCharacter(v)} className='item character createNewCharacter'>
+                    character.length < maxCharacters && 
+                    <div onClick={handleModal} className='item character createNewCharacter'>
                         <img src={CreateNewCharacter} alt="" />
                     </div>
                 }

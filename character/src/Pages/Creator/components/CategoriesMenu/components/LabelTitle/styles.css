@@ -1,0 +1,12 @@
+.setableItemTitle {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.78vw;
+    font-weight: 700;
+    letter-spacing: 0.05vw;
+    line-height: 1.82vw;
+    margin-left: 0.36vw;
+    height: 1.6vw;
+}

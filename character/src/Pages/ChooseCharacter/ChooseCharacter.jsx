@@ -6,8 +6,11 @@ import RotateCam from '../../components/RotateCam/RotateCam'
 import CustomizationMenu from '../../components/CustomizationMenu/CustomizationMenu'
 import { CharacterList } from '../../Contexts/Characters'
 import PlayerInfos from '../../components/PlayerInfos/PlayerInfos'
+import CustomModal from '../../components/CustomModal/CustomModal'
 
 export default function ChooseCharacter() {
+
+    const [[character, setCharacter], [selectedCharacter, setSelectedCharacter], [maxCharacters], [modalIsOpen, setModalIsOpen]] = useContext(CharacterList)
 
     return (
         <>
@@ -17,9 +20,11 @@ export default function ChooseCharacter() {
 
                     <CustomizationMenu type={'home'}/>
 
-                    <PlayerInfos />
+                    <PlayerInfos type={'home'} />
 
                     <RotateCam/>
+                   
+                    <CustomModal modalStatus={modalIsOpen}/>
 
                 </div>
         </>

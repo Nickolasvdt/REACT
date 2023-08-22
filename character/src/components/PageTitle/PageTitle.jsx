@@ -2,9 +2,9 @@
 import { useState } from "react";
 import './styles.css'
 
-export default function PageTitle({characters, teste}) {
+export default function PageTitle({characters, selected}) {
 
-    let index = characters.indexOf(teste.selectedCharacter)
+    let index = characters.indexOf(selected.selectedCharacter)
 
     return(
         <>
